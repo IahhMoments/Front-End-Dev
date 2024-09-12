@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Assets/5bd28f6ad6fa9-wallpaper-preview.jpg) center/cover no-repeat;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px none black;
+    border-radius: 10px;
+    box-shadow: 1px 0px 7px;
+    z-index: 100;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.list {
+display: flex;
+flex-direction: column;
+
+
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 400px;
+}
+
+.box {
+    margin: 1rem;
+}
+.signUp {
+    background-color: rgb(61, 91, 243);
+    border-style: none;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.signUp:hover {
+    background-color: rgb(23, 63, 191);
+}
+
+.name {
+    border-radius: 2px;
+    border-style: none;
+}
