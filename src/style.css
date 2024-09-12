@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(Assets/5bd28f6ad6fa9-wallpaper-preview.jpg) center/cover no-repeat;
+    background: url(../Assets/5bd28f6ad6fa9-wallpaper-preview.jpg) center/cover no-repeat;
 }
 
 .container {
