@@ -75,3 +75,10 @@ body {
     margin: 3px;
     font-size: 1.2em;
 }
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 130px;
+    left: 70%;
+    
+}
