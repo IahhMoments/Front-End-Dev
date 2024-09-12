@@ -68,4 +68,9 @@ flex-direction: column;
 .name {
     border-radius: 2px;
     border-style: none;
+    padding-left: 5px;
+}
+
+.ageBox {
+    width: 4em;
 }
